@@ -24,7 +24,7 @@
     "dev": "run-p dev:*",
     "start": "react-scripts --openssl-legacy-provider start",
     "build:css": "NODE_ENV=production postcss src/assets/tailwind.css -o src/assets/main.css",
-    "build:build": "react-scripts build",
+    "build:build": "react-scripts --openssl-legacy-provider build",
     "build": "run-s build:* ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
