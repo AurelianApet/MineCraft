@@ -1,0 +1,621 @@
+@font-face {
+    font-family: "bolda";
+    src: url('../fonts/CHROMATICA-BOLD.OTF');
+}
+
+@font-face {
+    font-family: "blacka";
+    src: url('../fonts/CHROMATICA-BLACK.OTF');
+}
+@font-face {
+    font-family: "mine";
+    src: url('../fonts/MinecraftTen-VGORe.ttf');
+}
+@font-face {
+    font-family: "joystix";
+    src: url('../fonts/joystix\ monospace.ttf');
+}
+
+@font-face {
+    font-family: one;
+    src: url(../fonts/Wicked\ Mouse\ Demo.otf);
+}
+
+.active {
+    color: rgb(200, 200, 200) !important;
+}
+
+.navbar {
+    background: rgb(17, 165, 231);
+    background: linear-gradient(90deg, rgba(17, 165, 231, 1) 0%, rgba(0, 85, 194, 1) 43%, rgba(0, 157, 189, 1) 98%);
+    width: 100%;
+    font-family: blacka;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+footer{
+    background: rgb(17, 165, 231);
+    background: linear-gradient(90deg, rgba(17, 165, 231, 1) 0%, rgba(0, 85, 194, 1) 43%, rgba(0, 157, 189, 1) 98%);
+    width: 100%;
+    font-family: blacka;
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+footer h6, footer span{
+    font-family: blacka;
+    font-size: 13pt;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+    color: #fff;
+}
+
+.social {
+    height: 50px;
+}
+
+#roadmap {
+  background-image: url(../images/roadmap.jpg);
+}
+
+.p-box {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #016587da;
+
+}
+
+
+.btn-head {
+    appearance: button;
+    font-family: bolda;
+    background-color: #4e460d;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn-head:after {
+    background-clip: padding-box;
+    background-color: #ff9d00;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.btn-head:hover {
+    color: #fff !important;
+}
+
+.btn-head:main,
+button:focus {
+    user-select: auto;
+}
+
+.btn-head:hover:not(:disabled) {
+    filter: brightness(1.1);
+}
+
+.btn-head:disabled {
+    cursor: auto;
+}
+
+.btn-head:active:after {
+    border-width: 0 0 0px;
+}
+
+.btn-head:active {
+    padding-bottom: 10px;
+}
+
+.coin {
+    height: 150px;
+    width: 160px;
+    text-align: center;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+.carousel-2 {
+    z-index: -100;
+}
+
+body {
+
+    scroll-behavior: smooth;
+    background-image: url(https://th.bing.com/th/id/R.9eec64127593e6ea4fa8d9885ba7d1da?rik=82u65PXRvIsVFg&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #FF8201;
+    ;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #604F9F;
+    /* Add a dark-grey background on hover */
+}
+
+.p-box {
+    color: #fff;
+    font-weight: bold;
+    font-family: bolda;
+
+}
+
+.fa-arrow-circle-left,
+.fa-arrow-circle-right {
+    margin-top: 230px;
+    color: #FF8201;
+
+}
+
+.img-gameplay {
+    height: 500px;
+    width: 100%;
+}
+
+.pie-small {
+    display: none;
+}
+
+.footer {
+    background-color: #604f9fc0;
+    font-family: blacka;
+    font-size: 9pt;
+}
+
+.footer a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: bolder;
+    font-size: 20pt;
+    color: #fff;
+}
+
+.text-tok {
+    color: #fff;
+    font-size: 12pt !important;
+    font-family: blacka;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 10pt !important;
+        text-align: justify !important;
+    }
+
+    .textbox {
+        margin-top: 20px !important;
+        text-align: justify;
+    }
+
+    .img-gameplay {
+        height: 250px;
+        width: 100%;
+    }
+
+    .head-tokenomics {
+        font-family: blacka;
+    }
+
+    .unicorn {
+        display: none;
+    }
+
+    .pie-small {
+        display: block;
+    }
+
+    .pie-large {
+        display: none;
+    }
+
+    .col-lg-2 img {
+        width: 180px !important;
+        height: 50px !important;
+        margin: 10px;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .foot img {
+        height: 80px !important;
+        width: 100%;
+    }
+
+    .coin {
+        height: 70px;
+        width: 80px;
+        text-align: center;
+        margin-top: -50px;
+        z-index: 1;
+    }
+
+    .coin-1 {
+        height: 150px;
+        width: 160px;
+        margin-top: 20px;
+    }
+
+    .tok-head {
+        font-weight: 30pt !important;
+        color: #fff;
+    }
+
+    .headmain {
+        height: 80px !important;
+        width: 200px !important;
+    }
+
+    .tok-tex {
+        font-family: blacka;
+    }
+
+    .heading-custom {
+        font-family: bolda;
+        font-size: 23pt !important;
+    }
+
+    .textbox-2 {
+        margin-top: 20px !important;
+        text-align: justify;
+        padding: 15px !important;
+
+    }
+
+    h5 {
+        font-size: 11pt !important;
+        text-align: center !important;
+    }
+
+    p {
+        text-align: left !important;
+    }
+}
+
+.textbox {
+    border: 5px solid #FF8201;;
+
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-family: blacka;
+    background-color: rgba(0, 0, 0, 0.809);
+    margin-top: 30px;
+    text-align: left;
+
+
+}
+
+.textbox-2 {
+    border: 5px solid #FF8201;;
+    ;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-family: blacka;
+    background-color: rgba(0, 0, 0, 0.809);
+    margin-top: 20px;
+    text-align: left;
+    padding: 50px;
+
+}
+
+.heading-custom {
+    font-family: one;
+    font-size: 40pt;
+    letter-spacing: 5px;
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .pie-mid {
+        display: none;
+    }
+}
+
+/* From uiverse.io by @gagan-gv */
+.card1 {
+    width: 100%;
+    background: #0d73b8;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s;
+    font-family: bolda !important;
+}
+
+.card1:hover {
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+    background-color: #71bdef;
+}
+
+.card1 .blob {
+    height: 10px;
+    width: 75%;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    background-color: #4bb8ff;
+    visibility: visible;
+    transition: all 0.3s;
+}
+
+.card1:hover .blob {
+    height: 0;
+}
+
+.card1 .img-1 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 170px;
+    height: 170px;
+    background-image: url(../nfts/WhatsApp\ Image\ 2022-04-21\ at\ 10.55.41\ PM.jpeg);
+    border-radius: 50%;
+    background-size: cover;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.card1 .img-2 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 170px;
+    height: 170px;
+    background-image: url(../nfts/WhatsApp\ Image\ 2022-04-23\ at\ 1.29.23\ PM\ \(1\).jpeg);
+    border-radius: 50%;
+    background-size: cover;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.card1 .img-3 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 170px;
+    height: 170px;
+    background-image: url(../nfts/WhatsApp\ Image\ 2022-04-23\ at\ 1.29.27\ PM.jpeg);
+    border-radius: 50%;
+    background-size: cover;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+
+.card1:hover .img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px 0 0;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    z-index: 99999;
+}
+
+.card1:hover .name {
+    display: none !important;
+    font-family: blacka !important;
+
+}
+
+
+.card1 h2 {
+    padding: 15px 10px;
+    font-size: 25px;
+    font-family: one !important;
+    transition: all 0.1s;
+    color: rgb(255, 255, 255) !important;
+    z-index: -99;
+    line-height: 17px;
+}
+
+.card1 span {
+    font-size: 18px;
+}
+
+.card1>p {
+    opacity: 0;
+    transition: all 0.75s;
+}
+
+.social-2 {
+    height: 40px !important;
+    margin: 5px;
+
+}
+
+.card1:hover>p {
+    position: absolute;
+    bottom: 15px;
+    left: 70px;
+    opacity: 1;
+    transition: all 0.1s;
+}
+
+.one {
+    font-family: one !important;
+}
+
+p {
+    color: #fff !important;
+}
+
+.text-random {
+    color: #ff9d00 !important;
+}
+
+.team-text {
+    font-size: 11pt;
+    font-weight: lighter !important;
+    text-align: left;
+}
+
+#btn-login {
+    cursor: pointer !important;
+}
+h1, .heading-custom{
+    font-family: mine;
+    -webkit-text-stroke: 2px #000000;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-5 {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+    
+    /* The actual timeline (the vertical ruler) */
+    .main-timeline-5::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    margin-left: -3px;
+    }
+    
+    /* Container around content */
+    .timeline-5 {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+    }
+    
+    /* The circles on the timeline */
+    .timeline-5::after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 1px;
+    background-color: #fff;
+    top: 18px;
+    border-radius: 50%;
+    z-index: 1;
+    }
+    
+    /* Place the container to the right */
+    .right-5 {
+    padding: 0px 0px 20px 40px;
+    left: auto;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .right-5::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #fff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+    }
+    
+    /* Fix the circle for containers on the right side */
+    .right-5::after {
+    left: -10px;
+    }
+    
+    @media (max-width: 991px) {
+    .main-timeline-5 {
+    max-width: 100%;
+    }
+    }
+  
